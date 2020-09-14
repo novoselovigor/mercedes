@@ -18,7 +18,6 @@
     <hotspots wordwrap="1" width="150" height="0">
       <label textcolor="0x000000" border="0" wordwrap="1" borderalpha="1" background="1" enabled="1" bordercolor="0x000000" width="150" textalpha="1" backgroundcolor="0xffffff" height="0" borderradius="1" backgroundalpha="1"/>
       <polystyle handcursor="1" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot tilt="-1.95" description="" id="Willkommen!" title="" pan="-343.93" target="" url="{node1}" skinid="ht_node"/>
       <polyhotspot description="" id="Poly0b" title="Kassel" target="111.0/4.7/17.5" url="{node3}">
         <polystring>-5.47/-0.09|-9.04/5.78|-15.85/5.63|-19.43/-0.08|-16.46/-6.06|-16.16/-6.5|-8.71/-6.51</polystring>
       </polyhotspot>
