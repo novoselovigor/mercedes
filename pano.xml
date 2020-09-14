@@ -1,147 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17950" appversion="6.1.6" start="node2">
+<tour start="node2" appversion="6.1.6" apprev="17950">
   <panorama id="node2">
-    <input levelingroll="0" overlap="1" width="2048" levelingpitch="0" height="2048" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="2048" height="2048" preload="0" predecode="0"/>
-      <level width="1024" height="1024" preload="0" predecode="0"/>
-      <level width="512" height="512" preload="0" predecode="0"/>
-      <level width="256" height="256" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" width="2048" predecode="0"/>
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-45.78" pan="-78.37" fovpixel="2"/>
-      <max tilt="34.18" pan="70.98" fov="120" fovstereographic="270" scaletofit="1" fovfisheye="360"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="-78.37" tilt="-45.78" fovpixel="2"/>
+      <max fovstereographic="270" fov="120" pan="70.98" fovfisheye="360" scaletofit="1" tilt="34.18"/>
     </view>
-    <userdata description="" copyright="" latitude="" source="" tags="" title="Empfangstheke mit Wabenstele" longitude="" customnodeid="" comment="" nodeid="node2" info="" heading="0" datetime="" author=""/>
-    <hotspots wordwrap="1" width="150" height="0">
-      <label textcolor="0x000000" border="0" wordwrap="1" borderalpha="1" background="1" enabled="1" bordercolor="0x000000" width="150" textalpha="1" backgroundcolor="0xffffff" height="0" borderradius="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <polyhotspot description="" id="Poly0b" title="Kassel" target="111.0/4.7/17.5" url="{node3}">
+    <userdata datetime="" heading="0" tags="" customnodeid="" copyright="" latitude="" comment="" author="" info="" source="" longitude="" description="" title="Empfangstheke mit Wabenstele" nodeid="node2"/>
+    <hotspots wordwrap="1" height="0" width="150">
+      <label textalpha="1" bordercolor="0x000000" wordwrap="1" borderradius="1" enabled="1" backgroundalpha="1" height="0" background="1" backgroundcolor="0xffffff" textcolor="0x000000" border="0" width="150" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
+      <polyhotspot target="111.0/4.7/17.5" id="Poly0b" url="{node3}" description="" title="Kassel">
         <polystring>-5.47/-0.09|-9.04/5.78|-15.85/5.63|-19.43/-0.08|-16.46/-6.06|-16.16/-6.5|-8.71/-6.51</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly0b" title="Weiterstadt" target="61.1/4.7/24.6" url="{node3}">
+      <polyhotspot target="61.1/4.7/24.6" id="Poly0b" url="{node3}" description="" title="Weiterstadt">
         <polystring>-18.28/6.85|-21.23/1.2|-27.53/1.06|-30.38/6.07|-27.89/11.57|-21.33/12.09</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly0b" title="Mannheim" target="44.2/6.5/22.8" url="{node3}">
+      <polyhotspot target="44.2/6.5/22.8" id="Poly0b" url="{node3}" description="" title="Mannheim">
         <polystring>-29.73/-0.15|-32.39/5.02|-37.2/4.88|-39.67/-0.42|-37.46/-5.52|-32.14/-5.97</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly02" title="Landau" target="29.6/5.1/17.5" url="{node3}">
+      <polyhotspot target="29.6/5.1/17.5" id="Poly02" url="{node3}" description="" title="Landau">
         <polystring>-32.42/-8.32|-37.37/-7.63|-39.45/-12.05|-37.63/-17.35|-32.38/-18.5|-29.63/-13.9</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly03" title="Mainz" target="124.6/5.1/22.1" url="{node3}">
+      <polyhotspot target="124.6/5.1/22.1" id="Poly03" url="{node3}" description="" title="Mainz">
         <polystring>-21.64/-16.1|-27.5/-15.47|-30.78/-19.86|-27.94/-25.13|-21.94/-26.22|-18.16/-21.32</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly04" title="Frankfurt am Main" target="143.7/6.9/25.9" url="{node3}">
+      <polyhotspot target="143.7/6.9/25.9" id="Poly04" url="{node3}" description="" title="Frankfurt am Main">
         <polystring>-8.99/-9.54|-16/-9.2|-19.2/-14.96|-16.47/-20.65|-8.75/-21.15|-5.19/-15.91</polystring>
       </polyhotspot>
+      <hotspot target="" pan="-352.87" id="Point01" url="" description="Willkommen!" title="Hi!" tilt="-4.56" skinid="ht_info"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomout="0" enabled="1" zoomin="0" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomoutpause="1" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedmouse="0" contextprojections="0" lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" simulatemass="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0"/>
+    <transition blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" zoomout="0" softedge="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control invertwheel="0" simulatemass="1" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" rubberband="0" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node1">
-    <input levelingroll="0" overlap="1" width="2048" levelingpitch="0" height="2048" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="2048" height="2048" preload="0" predecode="0"/>
-      <level width="1024" height="1024" preload="0" predecode="0"/>
-      <level width="512" height="512" preload="0" predecode="0"/>
-      <level width="256" height="256" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" width="2048" predecode="0"/>
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" pan="0" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-68.55" pan="-82.32" fovpixel="2"/>
-      <max tilt="58.56" pan="97.9" fov="120" fovstereographic="270" scaletofit="1" fovfisheye="360"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="-82.32" tilt="-68.55" fovpixel="2"/>
+      <max fovstereographic="270" fov="120" pan="97.9" fovfisheye="360" scaletofit="1" tilt="58.56"/>
     </view>
-    <userdata description="" copyright="" latitude="" source="" tags="Render" title="EQ" longitude="" customnodeid="" comment="" nodeid="node1" info="" heading="0" datetime="" author=""/>
-    <hotspots wordwrap="1" width="150" height="0">
-      <label textcolor="0x000000" border="0" wordwrap="1" borderalpha="1" background="1" enabled="1" bordercolor="0x000000" width="150" textalpha="1" backgroundcolor="0xffffff" height="0" borderradius="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot tilt="4.55" description="" id="Point02" title="" pan="-306.37" target="" url="{node2}" skinid="ht_node"/>
-      <polyhotspot description="Sind Sie bereit für E-Mobilität?" id="Poly01" title="Elektromobilität" target="_blank" url="https://www.mercedes-benz-rhein-main.de/evans/">
+    <userdata datetime="" heading="0" tags="Render" customnodeid="" copyright="" latitude="" comment="" author="" info="" source="" longitude="" description="" title="EQ" nodeid="node1"/>
+    <hotspots wordwrap="1" height="0" width="150">
+      <label textalpha="1" bordercolor="0x000000" wordwrap="1" borderradius="1" enabled="1" backgroundalpha="1" height="0" background="1" backgroundcolor="0xffffff" textcolor="0x000000" border="0" width="150" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
+      <hotspot target="" pan="-306.37" id="Point02" url="{node2}" description="" title="" tilt="4.55" skinid="ht_node"/>
+      <hotspot target="" pan="-18.47" id="Point01" url="media/EQ.mp4" description="" title="" tilt="-18.75" skinid="ht_video_file"/>
+      <polyhotspot target="_blank" id="Poly01" url="https://www.mercedes-benz-rhein-main.de/evans/" description="Sind Sie bereit für E-Mobilität?" title="Elektromobilität">
         <polystring>-31.59/0.57|-41.23/0.86|-41.21/-9.26|-31.55/-7.49</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly02" title="EQ" target="_blank" url="https://www.mercedes-benz-rhein-main.de/evans/">
+      <polyhotspot target="_blank" id="Poly02" url="https://www.mercedes-benz-rhein-main.de/evans/" description="" title="EQ">
         <polystring>-10.81/-11.71|-11.47/-9.91|-13.19/-9.03|-16.18/-8.86|-18.96/-9.44|-24.12/-8.96|-26.49/-10.28|-27.49/-12.26|-27.57/-15.54|-27.12/-16.54|-26.12/-17.28|-22.06/-17.26|-16.51/-16.61|-13.35/-15.65|-12.17/-15.08|-11.09/-13.95</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Frankfurt am Main" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Frankfurt am Main">
         <polystring>-312.89/1.75|-318.8/1.69|-319.22/-11.11|-313.2/-12.2</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Mainz" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Mainz">
         <polystring>-321.84/1.43|-326.14/1.11|-326.51/-9.52|-322.18/-10.19</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Kassel" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Kassel">
         <polystring>-328.37/1.35|-331.87/1.09|-331.8/-8.31|-328.51/-9.15</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Weiterstadt" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Weiterstadt">
         <polystring>-357.12/1.32|-3.06/1.17|-2.98/-8.56|-356.94/-8.52</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Mannheim" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Mannheim">
         <polystring>-6.82/1.2|-12.57/1.18|-12.58/-8.24|-6.85/-8.39</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Landau" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Landau">
         <polystring>-15.92/1.1|-21.44/1.12|-21.21/-7.71|-15.69/-7.8</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomout="0" enabled="1" zoomin="0" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomoutpause="1" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedmouse="0" contextprojections="0" lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" simulatemass="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0"/>
+    <transition blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" zoomout="0" softedge="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control invertwheel="0" simulatemass="1" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" rubberband="0" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" overlap="1" width="1024" levelingpitch="0" height="1024" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510">
-      <level width="1024" height="1024" preload="0" predecode="0"/>
-      <level width="512" height="512" preload="0" predecode="0"/>
-      <level width="256" height="256" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="1.000" overlap="1" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1024" leveltilesize="510" levelbias="0.400" width="1024">
+      <level preload="0" height="1024" width="1024" predecode="0"/>
+      <level preload="0" height="512" width="512" predecode="0"/>
+      <level preload="1" height="256" width="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="1.7248" pan="6.63082" fov="70" projection="4"/>
-      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fov="120" fovstereographic="270" scaletofit="1" fovfisheye="360"/>
+      <start fov="70" projection="4" pan="6.63082" tilt="1.7248"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" fov="120" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata description="" copyright="" latitude="" source="" tags="" title="Video-Wall" longitude="" customnodeid="" comment="" nodeid="node3" info="" heading="0" datetime="" author=""/>
-    <hotspots wordwrap="1" width="150" height="0">
-      <label textcolor="0x000000" border="0" wordwrap="1" borderalpha="1" background="1" enabled="1" bordercolor="0x000000" width="150" textalpha="1" backgroundcolor="0xffffff" height="0" borderradius="1" backgroundalpha="1"/>
-      <polystyle handcursor="1" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <polyhotspot description="Sind Sie bereit für E-Mobilität?" id="Poly0b" title="Elektromobilität" target="_blank" url="https://www.mercedes-benz-rhein-main.de/evans/">
+    <userdata datetime="" heading="0" tags="" customnodeid="" copyright="" latitude="" comment="" author="" info="" source="" longitude="" description="" title="Video-Wall" nodeid="node3"/>
+    <hotspots wordwrap="1" height="0" width="150">
+      <label textalpha="1" bordercolor="0x000000" wordwrap="1" borderradius="1" enabled="1" backgroundalpha="1" height="0" background="1" backgroundcolor="0xffffff" textcolor="0x000000" border="0" width="150" borderalpha="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
+      <polyhotspot target="_blank" id="Poly0b" url="https://www.mercedes-benz-rhein-main.de/evans/" description="Sind Sie bereit für E-Mobilität?" title="Elektromobilität">
         <polystring>-354.18/12.7|-18.37/15.34|-18.37/-0.84|-11.62/-0.87|-10.11/0.12|-7.24/1.4|-4.61/1.31|-2.26/0.75|-359.97/-0.08|-354.9/0.03|-354.63/0.85|-353.99/1.13</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly0b" title="EQ" target="_blank" url="https://www.mercedes-benz-rhein-main.de/evans/">
+      <polyhotspot target="_blank" id="Poly0b" url="https://www.mercedes-benz-rhein-main.de/evans/" description="" title="EQ">
         <polystring>-332.55/-8.93|-332.9/-11.16|-334.14/-14.25|-336.84/-16.5|-339.18/-17.63|-341.43/-18.18|-343.25/-18.05|-354.45/-17.61|-4.06/-16.93|-5.61/-17.24|-8.06/-16.58|-9.32/-16.12|-11.55/-15.85|-13.57/-13.73|-13.49/-11.43|-13.49/-10.74|-13.92/-8.46|-14.1/-5.56|-13.22/-3.08|-10.66/-0.67|-8.51/0.51|-5.79/0.79|-3.87/0.51|-0.85/-0.77|-359.01/-1.87|-354.63/-2.22|-354.45/0.15|-353.36/0.69|-349.7/0.78|-344.25/0.58|-341.34/0.4|-338.46/-0.29|-335.69/-1.53|-334.28/-3.23|-333.26/-4.66</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Frankfurt am Main" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Frankfurt am Main">
         <polystring>-210.82/15.62|-222.61/15.14|-222.69/-0.58|-226.6/-0.69|-226.91/-3.93|-206.86/-4.37|-206.56/-1.15|-210.77/-0.52</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Mainz" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Mainz">
         <polystring>-229.51/14.91|-239.39/13.65|-239.63/-0.72|-239.81/-3.1|-229.55/-3.45|-229.57/0.19</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Kassel" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Kassel">
         <polystring>-244.49/13|-251.81/11.6|-252.03/-0.08|-252.04/-2.71|-244.56/-3.2</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Weiterstadt" target="_blank" url="">
+      <polyhotspot target="" id="Poly01" url="" description="video/kd.mp4" title="Weiterstadt">
         <polystring>-291.51/14.67|-303.1/14.79|-303.37/-3.36|-291.15/-3.56</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Mannheim" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Mannheim">
         <polystring>-309.58/14.62|-320.32/13.77|-320.66/-3.74|-309.59/-4.17</polystring>
       </polyhotspot>
-      <polyhotspot description="video/kd.mp4" id="Poly01" title="Landau" target="_blank" url="">
+      <polyhotspot target="_blank" id="Poly01" url="" description="video/kd.mp4" title="Landau">
         <polystring>-325.47/13.69|-334.43/12.41|-334.77/-0.56|-333.66/-1.83|-333.13/-2.96|-332.23/-3.15|-325.82/-3.4</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly02a" title="Empfangstheke mit Wabenstele" target="0.0/-0.8/70.0" url="{node2}">
+      <polyhotspot target="0.0/-0.8/70.0" id="Poly02a" url="{node2}" description="" title="Empfangstheke mit Wabenstele">
         <polystring>-175.99/-23.68|-192.11/-16.93|-192.01/26.58|-187.23/32.11|-185.71/33.65|-175.8/42.2|-175.49/22.8</polystring>
       </polyhotspot>
+      <hotspot target="" pan="-357.63" id="Point01" url="media/EQ.mp4" description="" title="" tilt="-19.49" skinid="ht_video_file"/>
     </hotspots>
     <media/>
-    <transition zoomfov="20" zoomout="0" enabled="1" zoomin="0" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomoutpause="1" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedmouse="0" contextprojections="0" lockedkeyboard="0" invertcontrol="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" invertwheel="0" simulatemass="1" contextfullscreen="1" hideabout="0" speedwheel="1" dblclickfullscreen="0"/>
+    <transition blendcolor="0x000000" zoomspeed="2" zoomfov="20" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" zoomout="0" softedge="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control invertwheel="0" simulatemass="1" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" rubberband="0" sensitivity="8" lockedkeyboard="0" contextfullscreen="1" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <masternode>
-    <userdata description="" copyright="" latitude="" source="" tags="" title="" longitude="" customnodeid="" comment="" nodeid="master" info="" heading="0" datetime="" author=""/>
+    <userdata datetime="" heading="0" tags="" customnodeid="" copyright="" latitude="" comment="" author="" info="" source="" longitude="" description="" title="" nodeid="master"/>
   </masternode>
 </tour>
