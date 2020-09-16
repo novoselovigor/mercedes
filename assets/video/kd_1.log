@@ -1,0 +1,44 @@
+ffkroma started on 2020-09-16 at 14:40:36
+Report written to "/Users/hackintosh/Documents/GitHub/mercedes/video/kd_1.log"
+Command line:
+"/Library/Application Support/Adobe/Common/Plug-ins/7.0/MediaCore/Autokroma AfterCodecs/ffkroma" -loglevel error -benchmark -y -nostdin -ffreport "file=/Users/hackintosh/Documents/GitHub/mercedes/video/kd_1.log:level=48" -f s16le -ar 48000 -channels 1 -guess_layout_max 2 -i - -c:a aac -b:a 160k /Users/hackintosh/Documents/GitHub/mercedes/video/kd.mp4.audio.aac
+ffkroma version n4.2.2-147-g0e2c05a25e Copyright (c) 2000-2019 the FFmpeg developers
+  Autokroma fork of ffmpeg for AfterCodecs https://autokroma.com/
+  built with Apple clang version 11.0.0 (clang-1100.0.33.16)
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+Splitting the commandline.
+Reading option '-loglevel' ... matched as option 'loglevel' (set logging level) with argument 'error'.
+Reading option '-benchmark' ... matched as option 'benchmark' (add timings for benchmarking) with argument '1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-ffreport' ... matched as option 'ffreport' (generate a report) with argument 'file=/Users/hackintosh/Documents/GitHub/mercedes/video/kd_1.log:level=48'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 's16le'.
+Reading option '-ar' ... matched as option 'ar' (set audio sampling rate (in Hz)) with argument '48000'.
+Reading option '-channels' ... matched as AVOption 'channels' with argument '1'.
+Reading option '-guess_layout_max' ... matched as option 'guess_layout_max' (set the maximum number of channels to try to guess the channel layout) with argument '2'.
+Reading option '-i' ... matched as input url with argument '-'.
+Reading option '-c:a' ... matched as option 'c' (codec name) with argument 'aac'.
+Reading option '-b:a' ... matched as option 'b' (video bitrate (please use -b:v)) with argument '160k'.
+Reading option '/Users/hackintosh/Documents/GitHub/mercedes/video/kd.mp4.audio.aac' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option loglevel (set logging level) with argument error.
+Applying option benchmark (add timings for benchmarking) with argument 1.
+Applying option y (overwrite output files) with argument 1.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option ffreport (generate a report) with argument file=/Users/hackintosh/Documents/GitHub/mercedes/video/kd_1.log:level=48.
+Successfully parsed a group of options.
+Parsing a group of options: input url -.
+Applying option f (force format) with argument s16le.
+Applying option ar (set audio sampling rate (in Hz)) with argument 48000.
+Applying option guess_layout_max (set the maximum number of channels to try to guess the channel layout) with argument 2.
+Successfully parsed a group of options.
+Opening an input file: -.
+[s16le @ 0x7fa4bd000000] Opening 'pipe:' for reading
+[pipe @ 0x7fa4bc800580] Setting default whitelist 'crypto'
